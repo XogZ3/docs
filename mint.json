@@ -1,0 +1,71 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Fenado AI",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#7E22CE",
+    "light": "#6FEFF1",
+    "dark": "#7E22CE",
+    "anchors": {
+      "from": "#7E22CE",
+      "to": "#6FEFF1"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:hello@fenado.ai"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://fenado.ai/home"
+  },
+  "topAnchor": {
+    "name": "Blog",
+    "icon": "book-open",
+    "iconType": "duotone"
+  },
+  "navigation": [
+    {
+      "group": "Blog",
+      "pages": [
+        "hello"
+      ]
+    }
+  ],
+  "footer": {
+    "socials": {
+      "website": "https://fenado.ai",
+      "x": "https://fenado.ai/x",
+      "linkedin": "https://linkedin.com/company/fenado-ai",
+      "facebook": "https://www.facebook.com/profile.php?id=61568894284260",
+      "youtube": "https://www.youtube.com/@fenado-ai",
+      "discord": "https://discord.gg/EQyvdS5gGj"
+    },
+    "links": [
+        {
+            "title": "Legal",
+            "links": [
+              {
+                "label": "Privacy Policy",
+                "url": "https://fenado.ai/privacy"
+              },
+              {
+                "label": "Terms of Service",
+                "url": "https://fenado.ai/terms"
+              }
+            ]
+        }
+    ]
+  },
+  "analytics": {
+    "ga4": {
+        "measurementId": "G-9Q9RQ9MDJH"
+    }
+  }
+}
